@@ -1,0 +1,121 @@
+// sec-visual
+.sec-visu {
+  .vd {
+    position: relative;
+    object-fit: cover;
+  }
+
+  .tit {
+    @include posXY;
+    @include visu-tit;
+    text-align: center;
+    width: 100%;
+  }
+
+  .pause-btn {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 62px;
+    height: 62px;
+    background: rgb(0, 0, 0, 0.4);
+    border: 2px solid $gray6;
+    border-radius: 50%;
+  }
+
+  .pause {
+    color: $txtDefult-w;
+  }
+}
+
+// sec-about
+.sec-about {
+  height: 600px;
+
+  .inner {
+    position: relative;
+  }
+
+  .about-wrap {
+    @include posXY;
+    text-align: center;
+    width: 100%;
+  }
+
+  .content {
+    @include con26;
+    padding-top: 40px;
+  }
+  .con {
+    display: block;
+
+    &:nth-child(2) {
+      padding-top: 8px;
+    }
+  }
+}
+
+// sec- per
+.sec-per {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../../images/main/bg.png);
+  background-position: center;
+
+  .per-slide {
+    height: 100%;
+  }
+  .per-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include posXY;
+    width: 100%;
+  }
+  .txt-box {
+    @include posY;
+    left: 110px;
+    text-align: center;
+  }
+  .tit {
+    @include tit;
+  }
+  .content {
+    padding-top: 20px;
+    width: 255px;
+  }
+  .img-wrap {
+    @include posY;
+    right: 0;
+    display: flex;
+    gap: 30px;
+  }
+  .per-img {
+    border-radius: 50%;
+
+    &:hover {
+      border: 3px solid $primary;
+    }
+  }
+  .swiper-pagination {
+    bottom: 60px;
+  }
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    background: $txtDefult-w;
+  }
+  .swiper-pagination-bullet-active {
+    background: $primary;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    margin: 0 10px;
+  }
+}
