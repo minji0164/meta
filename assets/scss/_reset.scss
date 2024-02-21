@@ -167,10 +167,13 @@ caption,
 cite,
 code,
 dfn,
-em,
 var {
   font-style: normal;
   font-weight: normal;
+}
+
+em {
+  font-style: normal;
 }
 
 hr {

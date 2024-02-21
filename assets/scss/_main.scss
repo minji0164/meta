@@ -1,4 +1,4 @@
-// sec-visual
+// sec-visual--------------------------------------------------------------------------
 .sec-visu {
   .vd {
     position: relative;
@@ -28,7 +28,7 @@
   }
 }
 
-// sec-about
+// sec-about--------------------------------------------------------------------------
 .sec-about {
   height: 600px;
 
@@ -55,7 +55,7 @@
   }
 }
 
-// sec- per
+// sec- per--------------------------------------------------------------------------
 .sec-per {
   background-image: linear-gradient(
       to bottom,
@@ -68,6 +68,7 @@
   .per-slide {
     height: 100%;
   }
+
   .per-wrap {
     position: relative;
     display: flex;
@@ -76,31 +77,42 @@
     @include posXY;
     width: 100%;
   }
+
   .txt-box {
     @include posY;
     left: 110px;
     text-align: center;
   }
+
   .tit {
     @include tit;
   }
   .content {
     padding-top: 20px;
+    opacity: 0.7;
     width: 255px;
   }
+
   .img-wrap {
     @include posY;
-    right: 0;
+    right: 5px;
     display: flex;
     gap: 30px;
   }
+
   .per-img {
     border-radius: 50%;
+    transition: border 0.5s;
+    border: 5px solid transparent; /* 기본 border 값 */
+    object-fit: cover;
 
     &:hover {
-      border: 3px solid $primary;
+      border: 5px solid $primary;
+      transform: scale(1.05);
+      transition: transform 0.5s;
     }
   }
+
   .swiper-pagination {
     bottom: 60px;
   }
@@ -119,3 +131,5 @@
     margin: 0 10px;
   }
 }
+
+// --------------------------------------------------------------------------

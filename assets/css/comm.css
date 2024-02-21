@@ -154,10 +154,13 @@ caption,
 cite,
 code,
 dfn,
-em,
 var {
   font-style: normal;
   font-weight: normal;
+}
+
+em {
+  font-style: normal;
 }
 
 hr {
@@ -443,21 +446,28 @@ legend {
 }
 .sec-per .content {
   padding-top: 20px;
+  opacity: 0.7;
   width: 255px;
 }
 .sec-per .img-wrap {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 0;
+  right: 5px;
   display: flex;
   gap: 30px;
 }
 .sec-per .per-img {
   border-radius: 50%;
+  transition: border 0.5s;
+  border: 5px solid transparent; /* 기본 border 값 */
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .sec-per .per-img:hover {
-  border: 3px solid #0081fb;
+  border: 5px solid #0081fb;
+  transform: scale(1.05);
+  transition: transform 0.5s;
 }
 .sec-per .swiper-pagination {
   bottom: 60px;
