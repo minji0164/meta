@@ -10,11 +10,6 @@ $(window).scroll(function () {
   prevScrollpos = currentScrollPos;
 });
 
-//aos
-document.addEventListener("DOMContentLoaded", function () {
-  AOS.init();
-});
-
 //waypoint
 var counter1 = new CountUp("counter1", 0, 70, 0, 4, {
   useEasing: true,
@@ -65,28 +60,3 @@ var waypoint1 = new Waypoint({
   },
   offset: "50%",
 });
-
-//animate.css
-window.addEventListener("scroll", function () {
-  var element = document.querySelector(".txt-box");
-  var positionFromTop = element.getBoundingClientRect().top;
-
-  // 스크롤 위치에 따라 CSS 클래스 추가 또는 제거
-  if (positionFromTop - window.innerHeight < 0) {
-    element.classList.add("animate__fadeInLeft");
-  } else {
-    element.classList.remove("animate__fadeInLeft");
-  }
-});
-
-// window.addEventListener("scroll", function () {
-//   var element = document.querySelector(".per-img1");
-//   var positionFromTop = element.getBoundingClientRect().top;
-
-//   // 스크롤 위치에 따라 CSS 클래스 추가 또는 제거
-//   if (positionFromTop - window.innerHeight < 0) {
-//     element.classList.add("fade-in");
-//   } else {
-//     element.classList.remove("fade-in");
-//   }
-// });
