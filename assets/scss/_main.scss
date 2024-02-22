@@ -5,8 +5,9 @@
     object-fit: cover;
   }
 
-  .tit {
-    @include posXY;
+  .big-tit {
+    position: absolute;
+    top: 43%;
     @include visu-tit;
     text-align: center;
     width: 100%;
@@ -56,80 +57,5 @@
 }
 
 // sec- per--------------------------------------------------------------------------
-.sec-per {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0)
-    ),
-    url(../../images/main/bg.png);
-  background-position: center;
-
-  .per-slide {
-    height: 100%;
-  }
-
-  .per-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    @include posXY;
-    width: 100%;
-  }
-
-  .txt-box {
-    @include posY;
-    left: 110px;
-    text-align: center;
-  }
-
-  .tit {
-    @include tit;
-  }
-  .content {
-    padding-top: 20px;
-    opacity: 0.7;
-    width: 255px;
-  }
-
-  .img-wrap {
-    @include posY;
-    right: 5px;
-    display: flex;
-    gap: 30px;
-  }
-
-  .per-img {
-    border-radius: 50%;
-    transition: border 0.5s;
-    border: 5px solid transparent; /* 기본 border 값 */
-    object-fit: cover;
-
-    &:hover {
-      border: 5px solid $primary;
-      transform: scale(1.05);
-      transition: transform 0.5s;
-    }
-  }
-
-  .swiper-pagination {
-    bottom: 60px;
-  }
-  .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    opacity: 1;
-    background: $txtDefult-w;
-  }
-  .swiper-pagination-bullet-active {
-    background: $primary;
-  }
-  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-  .swiper-pagination-horizontal.swiper-pagination-bullets
-    .swiper-pagination-bullet {
-    margin: 0 10px;
-  }
-}
 
 // --------------------------------------------------------------------------
