@@ -16,12 +16,12 @@ var counter1 = new CountUp("counter1", 0, 70, 0, 4, {
   useGrouping: true,
   separator: ",",
 });
-var counter2 = new CountUp("counter1", 0, 70, 0, 4, {
+var counter2 = new CountUp("counter2", 0, 2, 0, 4, {
   useEasing: true,
   useGrouping: true,
   separator: ",",
 });
-var counter3 = new CountUp("counter1", 0, 70, 0, 4, {
+var counter3 = new CountUp("counter3", 0, 7, 0, 4, {
   useEasing: true,
   useGrouping: true,
   separator: ",",

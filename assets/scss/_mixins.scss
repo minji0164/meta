@@ -99,17 +99,26 @@
 }
 // txt-----------------------------------------------------------------------------
 @mixin visu-tit {
-  font-family: "Noto Sans KR";
   font-weight: 700;
   font-size: 100px;
 }
 @mixin tit {
-  font-family: "Noto Sans KR";
   font-weight: 700;
-  font-size: 52px;
+  font-size: 80px;
+}
+@mixin sub-tit {
+  font-weight: 700;
+  font-size: 60px;
+}
+@mixin sub-tit2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+@mixin sub-tit3 {
+  font-weight: 700;
+  font-size: 26px;
 }
 @mixin con26 {
-  font-family: "Noto Sans KR";
   font-weight: 300;
   font-size: 26px;
 }
