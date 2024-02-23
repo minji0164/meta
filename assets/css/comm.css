@@ -629,4 +629,30 @@ legend {
 }
 .sec-prod .add {
   color: #fff;
+}
+
+.sec-news {
+  background: rgba(255, 255, 255, 0.1);
+}
+.sec-news .content {
+  font-weight: 300;
+  font-size: 26px;
+  text-align: center;
+}
+.sec-news .btn-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+.sec-news .btn-more {
+  padding: 14px 21px;
+  border-radius: 50px;
+  color: #fff;
+}
+.sec-news .face {
+  background: #0081fb;
+}
+.sec-news .insta {
+  background-image: url(../../images/main/insta.png);
 }/*# sourceMappingURL=comm.css.map */

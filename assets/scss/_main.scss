@@ -277,3 +277,32 @@
     color: $txtDefult-w;
   }
 }
+
+// --------------------------------------------------------------------------
+.sec-news {
+  background: $bg-w-op;
+
+  .content {
+    @include con26;
+    text-align: center;
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+  }
+
+  .btn-more {
+    padding: 14px 21px;
+    border-radius: 50px;
+    color: $txtDefult-w;
+  }
+  .face {
+    background: $primary;
+  }
+  .insta {
+    background-image: url(../../images/main/insta.png);
+  }
+}
