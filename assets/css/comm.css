@@ -581,4 +581,52 @@ legend {
 }
 .sec-meta .inner2 .add {
   color: #fff;
+}
+
+.sec-prod .sub-tit {
+  font-weight: 700;
+  font-size: 40px;
+  color: #0081fb;
+}
+.sec-prod .tit-wrap {
+  margin-bottom: 100px;
+}
+.sec-prod .white,
+.sec-prod .gray {
+  display: block;
+}
+.sec-prod .vd {
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec-prod .content {
+  padding-top: 40px;
+  text-align: center;
+}
+.sec-prod .btn-box {
+  display: flex;
+  justify-content: center;
+}
+.sec-prod .btn-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 80px;
+  padding: 6px 6px 6px 24px;
+  border-radius: 50px;
+  background: #fff;
+}
+.sec-prod .icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #0081fb;
+  width: 40px;
+  height: 40px;
+}
+.sec-prod .add {
+  color: #fff;
 }/*# sourceMappingURL=comm.css.map */

@@ -220,3 +220,60 @@
     }
   }
 }
+
+// --------------------------------------------------------------------------
+.sec-prod {
+  .sub-tit {
+    @include sub-tit2;
+    color: $primary;
+  }
+
+  .tit-wrap {
+    margin-bottom: 100px;
+  }
+
+  .white,
+  .gray {
+    display: block;
+  }
+
+  .vd {
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .content {
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .btn-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 80px;
+    padding: 6px 6px 6px 24px;
+    border-radius: 50px;
+    background: $bg-w;
+  }
+
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: $primary;
+    width: 40px;
+    height: 40px;
+  }
+
+  .add {
+    color: $txtDefult-w;
+  }
+}
