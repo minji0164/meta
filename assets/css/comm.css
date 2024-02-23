@@ -376,6 +376,72 @@ legend {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.bottom-menu {
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.bottom-menu .inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 132px;
+  padding: 50px 0;
+}
+.bottom-menu strong {
+  font-weight: 700;
+  font-size: 16px;
+}
+.bottom-menu .icons {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.bottom-menu .icons .fa-facebook {
+  font-size: 26px;
+  color: #fff;
+}
+.bottom-menu .icons .box {
+  text-align: center;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+}
+.bottom-menu .icons .black {
+  color: #000;
+}
+.bottom-menu .menu {
+  display: flex;
+  gap: 70px;
+}
+.bottom-menu .menu .flex {
+  display: flex;
+  gap: 30px;
+}
+.bottom-menu .menu .flex li {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.bottom-menu .menu .flex li a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#footer {
+  font-size: 14px;
+}
+#footer .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+}
+#footer .flex {
+  display: flex;
+  gap: 20px;
+}
+#footer a {
+  color: #fff;
+}
+
 .sec-visu .vd {
   position: relative;
   -o-object-fit: cover;

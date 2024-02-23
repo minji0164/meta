@@ -99,4 +99,82 @@
   }
 }
 //---------------------------------------------------------------------------------
+.bottom-menu {
+  background: $bg-w-op;
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 132px;
+    padding: 50px 0;
+  }
+
+  strong {
+    @include bold16;
+  }
+
+  .icons {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+
+    .fa-facebook {
+      font-size: 26px;
+      color: $txtDefult-w;
+    }
+
+    .box {
+      text-align: center;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      background: $txtDefult-w;
+    }
+
+    .black {
+      color: $bg;
+    }
+  }
+
+  .menu {
+    display: flex;
+    gap: 70px;
+
+    .flex {
+      display: flex;
+      gap: 30px;
+
+      li {
+        padding-bottom: 10px;
+        font-size: 14px;
+
+        a {
+          color: $txtDefult-sub1;
+        }
+      }
+    }
+  }
+}
+//---------------------------------------------------------------------------------
+#footer {
+  font-size: 14px;
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+  }
+
+  .flex {
+    display: flex;
+    gap: 20px;
+  }
+
+  a {
+    color: $txtDefult-w;
+  }
+}
+//---------------------------------------------------------------------------------
 @import "main";
