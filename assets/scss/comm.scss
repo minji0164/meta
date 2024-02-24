@@ -6,6 +6,10 @@
   min-height: 100vh;
   max-width: none;
   margin: 0 auto;
+
+  ::selection {
+    background-color: $primary; // 선택한 텍스트의 배경색을 빨간색으로 설정
+  }
 }
 //---------------------------------------------------------------------------------
 .inner,

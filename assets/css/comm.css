@@ -288,6 +288,12 @@ legend {
   max-width: none;
   margin: 0 auto;
 }
+.wrap ::-moz-selection {
+  background-color: #0081fb;
+}
+.wrap ::selection {
+  background-color: #0081fb;
+}
 
 .inner,
 .inner2 {
