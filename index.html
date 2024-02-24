@@ -20,10 +20,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" src="dist/css/jquery.animatedheadline.css" />
     <link rel="stylesheet" href="./assets/css/comm.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.7.1/countUp.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="dist/js/jquery.animatedheadline.min.js"></script>
     <script defer src="./assets/js/comm.js"></script>
   </head>
   <body>
@@ -155,16 +159,25 @@
           <div class="inner">
             <div class="about-wrap">
               <h2 class="about-lg">
-                <img class="lg-img2" src="./images/comm/logo.png" alt="meta" />
+                <img
+                  class="lg-img2"
+                  src="./images/comm/logo.png"
+                  alt="meta"
+                  data-aos="zoom-in"
+                />
               </h2>
               <p class="content">
-                <span class="con">
+                <span
+                  class="con"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
                   Meta는 사람들이 친구 및 가족과 소통하고 커뮤니티를 찾고
                   비즈니스를
                 </span>
-                <span class="con"
-                  >성장시키는 데 도움이 되는 기술을 개발합니다.</span
-                >
+                <span class="con" data-aos="fade-left" data-aos-duration="1000">
+                  성장시키는 데 도움이 되는 기술을 개발합니다.
+                </span>
               </p>
             </div>
           </div>
