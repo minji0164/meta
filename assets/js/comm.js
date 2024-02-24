@@ -60,3 +60,16 @@ var waypoint1 = new Waypoint({
   },
   offset: "50%",
 });
+
+$(document).ready(function () {
+  $(".pause-btn").click(function () {
+    var video = $(this).closest("section").find(".vd")[0];
+    if (video.paused) {
+      video.play();
+      $(this).find(".pause").text("pause");
+    } else {
+      video.pause();
+      $(this).find(".pause").text("play_arrow");
+    }
+  });
+});
