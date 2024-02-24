@@ -61,6 +61,7 @@ var waypoint1 = new Waypoint({
   offset: "50%",
 });
 
+//비디오 일시정지
 $(document).ready(function () {
   $(".pause-btn").click(function () {
     var video = $(this).closest("section").find(".vd")[0];
