@@ -148,7 +148,7 @@ button {
 }
 /* color값은 디자인가이드에 맞게사용 */
 a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 a:active, a:hover {
@@ -354,9 +354,23 @@ legend {
   gap: 24px;
 }
 #header #nav .nav-list {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+#header #nav .nav-link {
   display: flex;
   align-items: center;
   gap: 4px;
+}
+#header #nav .depth2 {
+  position: absolute;
+  top: 60px;
+  width: 200px;
+  background: #000;
+}
+#header #nav .depth2-list {
+  display: none;
 }
 
 #main .sec-100 {

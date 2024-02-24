@@ -70,9 +70,25 @@
       gap: 24px;
     }
     .nav-list {
+      position: relative;
+      display: flex;
+      height: 100%;
+    }
+    .nav-link {
       display: flex;
       align-items: center;
       gap: 4px;
+    }
+
+    .depth2 {
+      position: absolute;
+      top: 60px;
+      width: 200px;
+      background: $bg;
+    }
+
+    .depth2-list {
+      display: none;
     }
   }
 }
