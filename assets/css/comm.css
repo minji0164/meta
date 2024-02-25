@@ -346,6 +346,12 @@ legend {
   height: 100%;
   gap: 50px;
 }
+@media screen and (max-width: 1280px) {
+  #header .hd-wrap {
+    padding: 0 40px;
+    justify-content: space-between;
+  }
+}
 #header .lg-img {
   display: flex;
   align-items: center;
@@ -354,6 +360,11 @@ legend {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+@media screen and (max-width: 1280px) {
+  #header #nav {
+    display: none;
+  }
 }
 #header #nav .nav {
   display: flex;
@@ -378,6 +389,18 @@ legend {
 #header #nav .depth2-list {
   display: none;
 }
+#header .menu {
+  display: none;
+}
+@media screen and (max-width: 1280px) {
+  #header .menu {
+    display: flex;
+  }
+  #header .menu .icon {
+    font-size: 30px;
+    color: #fff;
+  }
+}
 
 #main .sec-100 {
   height: 100vh;
@@ -388,9 +411,19 @@ legend {
 #main .inner-150 {
   padding: 150px 0;
 }
+@media screen and (max-width: 1280px) {
+  #main .inner-150 {
+    padding: 100px 0;
+  }
+}
 #main .tit-wrap {
   font-weight: 700;
   font-size: 80px;
+}
+@media screen and (max-width: 1280px) {
+  #main .tit-wrap {
+    font-size: 50px;
+  }
 }
 #main .tit-wrap .gray {
   color: rgba(255, 255, 255, 0.6);
@@ -405,6 +438,12 @@ legend {
   justify-content: space-between;
   gap: 132px;
   padding: 50px 0;
+}
+@media screen and (max-width: 1280px) {
+  .bottom-menu .inner {
+    flex-direction: column;
+    gap: 70px;
+  }
 }
 .bottom-menu strong {
   font-weight: 700;
@@ -433,9 +472,19 @@ legend {
   display: flex;
   gap: 70px;
 }
+@media screen and (max-width: 1280px) {
+  .bottom-menu .menu {
+    justify-content: space-between;
+  }
+}
 .bottom-menu .menu .flex {
   display: flex;
   gap: 30px;
+}
+@media screen and (max-width: 1280px) {
+  .bottom-menu .menu .flex {
+    flex-direction: column;
+  }
 }
 .bottom-menu .menu .flex li {
   padding-bottom: 10px;
@@ -475,6 +524,11 @@ legend {
   text-align: center;
   width: 100%;
 }
+@media screen and (max-width: 1280px) {
+  .sec-visu .big-tit {
+    font-size: 60px;
+  }
+}
 .sec-visu .pause-btn {
   position: absolute;
   bottom: 60px;
@@ -492,6 +546,11 @@ legend {
 .sec-about {
   height: 600px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-about {
+    height: 550px;
+  }
+}
 .sec-about .inner {
   position: relative;
 }
@@ -508,6 +567,11 @@ legend {
   font-size: 26px;
   padding-top: 40px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-about .content {
+    font-size: 23px;
+  }
+}
 .sec-about .con {
   display: block;
 }
@@ -518,6 +582,11 @@ legend {
 .sec-per .per-wrap {
   padding-top: 100px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-per .per-wrap {
+    padding-top: 80px;
+  }
+}
 .sec-per .vd-wrap {
   position: relative;
 }
@@ -526,6 +595,11 @@ legend {
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (max-width: 1280px) {
+  .sec-per .vd-wrap .vd {
+    height: 400px;
+  }
 }
 .sec-per .vd-wrap .txt-wrap {
   position: absolute;
@@ -539,6 +613,11 @@ legend {
   font-weight: 700;
   font-size: 60px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-per .vd-wrap .count {
+    font-size: 50px;
+  }
+}
 .sec-per .vd-wrap .content {
   padding-top: 10px;
   color: rgba(255, 255, 255, 0.7);
@@ -548,8 +627,16 @@ legend {
 }
 .sec-per .img-wrap {
   display: flex;
+  flex-wrap: nowrap;
   gap: 40px;
   padding-top: 40px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-per .img-wrap {
+    padding-top: 30px;
+    gap: 30px;
+    width: 100%;
+  }
 }
 .sec-per .img-wrap .img1,
 .sec-per .img-wrap .img2 {
@@ -559,6 +646,12 @@ legend {
   position: relative;
   opacity: 0.6;
   border-radius: 20px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-per .img-wrap .img {
+    width: 100%;
+    max-width: 400px;
+  }
 }
 .sec-per .img-wrap .txt-wrap {
   position: absolute;
@@ -571,6 +664,11 @@ legend {
   font-weight: 700;
   font-size: 40px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-per .img-wrap .count {
+    font-size: 30px;
+  }
+}
 .sec-per .img-wrap .content {
   padding-top: 10px;
   color: rgba(255, 255, 255, 0.7);
@@ -578,6 +676,11 @@ legend {
 
 .sec-meta .inner {
   padding: 150px 0 100px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-meta .inner {
+    padding: 100px 0 80px;
+  }
 }
 .sec-meta .vd-wrap {
   position: relative;
@@ -597,9 +700,19 @@ legend {
   text-align: center;
   z-index: 100;
 }
+@media screen and (max-width: 1280px) {
+  .sec-meta .vd-wrap .txt-wrap {
+    width: 100%;
+  }
+}
 .sec-meta .vd-wrap .sub-tit {
   font-weight: 700;
   font-size: 60px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-meta .vd-wrap .sub-tit {
+    font-size: 50px;
+  }
 }
 .sec-meta .vd-wrap .content {
   padding-top: 10px;
@@ -627,13 +740,28 @@ legend {
   align-items: center;
   padding: 100px 0 150px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-meta .inner2 {
+    padding: 80px 0 100px;
+  }
+}
 .sec-meta .inner2 .list-wrap {
   display: flex;
   justify-content: center;
   gap: 126px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-meta .inner2 .list-wrap {
+    gap: 40px;
+  }
+}
 .sec-meta .inner2 .icon {
   font-size: 64px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-meta .inner2 .icon {
+    font-size: 54px;
+  }
 }
 .sec-meta .inner2 .sub-tit {
   display: block;
@@ -641,10 +769,20 @@ legend {
   font-weight: 700;
   font-size: 26px;
 }
+@media screen and (max-width: 1280px) {
+  .sec-meta .inner2 .sub-tit {
+    font-size: 23px;
+  }
+}
 .sec-meta .inner2 .content {
   padding-top: 10px;
   color: rgba(255, 255, 255, 0.7);
   width: 270px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-meta .inner2 .content {
+    width: 220px;
+  }
 }
 .sec-meta .inner2 .btn-more {
   display: flex;
@@ -674,8 +812,18 @@ legend {
   font-size: 40px;
   color: #0081fb;
 }
+@media screen and (max-width: 1280px) {
+  .sec-prod .sub-tit {
+    font-size: 30px;
+  }
+}
 .sec-prod .tit-wrap {
   margin-bottom: 100px;
+}
+@media screen and (max-width: 1280px) {
+  .sec-prod .tit-wrap {
+    margin-bottom: 80px;
+  }
 }
 .sec-prod .white,
 .sec-prod .gray {
@@ -685,6 +833,11 @@ legend {
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (max-width: 1280px) {
+  .sec-prod .vd {
+    height: 500px;
+  }
 }
 .sec-prod .content {
   padding-top: 40px;
@@ -724,6 +877,11 @@ legend {
   font-weight: 300;
   font-size: 26px;
   text-align: center;
+}
+@media screen and (max-width: 1280px) {
+  .sec-news .content {
+    font-size: 23px;
+  }
 }
 .sec-news .btn-wrap {
   display: flex;

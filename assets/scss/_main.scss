@@ -33,6 +33,10 @@
 .sec-about {
   height: 600px;
 
+  @media screen and (max-width: 1280px) {
+    height: 550px;
+  }
+
   .inner {
     position: relative;
   }
@@ -60,6 +64,10 @@
 .sec-per {
   .per-wrap {
     padding-top: 100px;
+
+    @media screen and (max-width: 1280px) {
+      padding-top: 80px;
+    }
   }
 
   .vd-wrap {
@@ -69,6 +77,10 @@
       opacity: 0.6;
       border-radius: 20px;
       object-fit: cover;
+
+      @media screen and (max-width: 1280px) {
+        height: 400px;
+      }
     }
     .txt-wrap {
       @include posXY;
@@ -91,8 +103,15 @@
 
   .img-wrap {
     display: flex;
+    flex-wrap: nowrap;
     gap: 40px;
     padding-top: 40px;
+
+    @media screen and (max-width: 1280px) {
+      padding-top: 30px;
+      gap: 30px;
+      width: 100%;
+    }
 
     .img1,
     .img2 {
@@ -103,6 +122,11 @@
       position: relative;
       opacity: 0.6;
       border-radius: 20px;
+
+      @media screen and (max-width: 1280px) {
+        width: 100%;
+        max-width: 400px;
+      }
     }
     .txt-wrap {
       @include posXY;
@@ -123,6 +147,10 @@
 .sec-meta {
   .inner {
     padding: 150px 0 100px;
+
+    @media screen and (max-width: 1280px) {
+      padding: 100px 0 80px;
+    }
   }
 
   .vd-wrap {
@@ -138,6 +166,10 @@
       @include posXY;
       text-align: center;
       z-index: 100;
+
+      @media screen and (max-width: 1280px) {
+        width: 100%;
+      }
     }
 
     .sub-tit {
@@ -174,14 +206,26 @@
     align-items: center;
     padding: 100px 0 150px;
 
+    @media screen and (max-width: 1280px) {
+      padding: 80px 0 100px;
+    }
+
     .list-wrap {
       display: flex;
       justify-content: center;
       gap: 126px;
+
+      @media screen and (max-width: 1280px) {
+        gap: 40px;
+      }
     }
 
     .icon {
       font-size: 64px;
+
+      @media screen and (max-width: 1280px) {
+        font-size: 54px;
+      }
     }
     .sub-tit {
       display: block;
@@ -192,6 +236,10 @@
       padding-top: 10px;
       color: $txtDefult-sub2;
       width: 270px;
+
+      @media screen and (max-width: 1280px) {
+        width: 220px;
+      }
     }
 
     .btn-more {
@@ -230,6 +278,10 @@
 
   .tit-wrap {
     margin-bottom: 100px;
+
+    @media screen and (max-width: 1280px) {
+      margin-bottom: 80px;
+    }
   }
 
   .white,
@@ -240,6 +292,10 @@
   .vd {
     border-radius: 20px;
     object-fit: cover;
+
+    @media screen and (max-width: 1280px) {
+      height: 500px;
+    }
   }
 
   .content {

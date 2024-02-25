@@ -57,6 +57,11 @@
     align-items: center;
     height: 100%;
     gap: 50px;
+
+    @media screen and (max-width: 1280px) {
+      padding: 0 40px;
+      justify-content: space-between;
+    }
   }
 
   .lg-img {
@@ -68,6 +73,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+
+    @media screen and (max-width: 1280px) {
+      display: none;
+    }
 
     .nav {
       display: flex;
@@ -95,6 +104,19 @@
       display: none;
     }
   }
+
+  .menu {
+    display: none;
+
+    @media screen and (max-width: 1280px) {
+      display: flex;
+
+      .icon {
+        font-size: 30px;
+        color: $txtDefult-w;
+      }
+    }
+  }
 }
 //---------------------------------------------------------------------------------
 #main {
@@ -108,6 +130,10 @@
 
   .inner-150 {
     padding: 150px 0;
+
+    @media screen and (max-width: 1280px) {
+      padding: 100px 0;
+    }
   }
 
   .tit-wrap {
@@ -128,6 +154,11 @@
     justify-content: space-between;
     gap: 132px;
     padding: 50px 0;
+
+    @media screen and (max-width: 1280px) {
+      flex-direction: column;
+      gap: 70px;
+    }
   }
 
   strong {
@@ -161,9 +192,17 @@
     display: flex;
     gap: 70px;
 
+    @media screen and (max-width: 1280px) {
+      justify-content: space-between;
+    }
+
     .flex {
       display: flex;
       gap: 30px;
+
+      @media screen and (max-width: 1280px) {
+        flex-direction: column;
+      }
 
       li {
         padding-bottom: 10px;
