@@ -351,11 +351,18 @@ legend {
 @media screen and (max-width: 1280px) {
   #header .hd-wrap {
     justify-content: space-between;
+    padding: 0 24px;
   }
 }
 #header .lg-img {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 1280px) {
+  #header .lg-img {
+    width: auto;
+    height: 15px;
+  }
 }
 #header #nav {
   display: flex;
@@ -381,22 +388,34 @@ legend {
   gap: 4px;
   height: 59px;
 }
+#header #nav .nav-link:hover .icon {
+  transition: all 0.3s;
+  transform: rotate(180deg);
+}
 #header #nav .depth2 {
   display: flex;
+  gap: 150px;
   position: absolute;
   right: 0;
   left: 0;
   top: 60px;
   padding: 46px 230px;
   width: 100%;
-  background: #000;
+  background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 #header #nav .depth2.active {
   opacity: 1;
   visibility: visible;
+}
+#header #nav .depth2-list:hover {
+  transition: all 0.5s;
+  border-bottom: 2px solid #0081fb;
 }
 #header .menu {
   display: none;
@@ -572,6 +591,11 @@ legend {
 
 #footer {
   font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  #footer {
+    background: rgba(255, 255, 255, 0.1);
+  }
 }
 #footer .inner {
   display: flex;
