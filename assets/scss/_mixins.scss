@@ -101,51 +101,69 @@
 @mixin visu-tit {
   font-weight: 700;
   font-size: 100px;
-
   @media screen and (max-width: 1280px) {
     font-size: 60px;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 }
+
 @mixin tit {
   font-weight: 700;
   font-size: 80px;
-
   @media screen and (max-width: 1280px) {
     font-size: 50px;
   }
-}
-@mixin sub-tit {
-  font-weight: 700;
-  font-size: 60px;
-
-  @media screen and (max-width: 1280px) {
-    font-size: 50px;
-  }
-}
-@mixin sub-tit2 {
-  font-weight: 700;
-  font-size: 40px;
-
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 768px) {
     font-size: 30px;
   }
 }
+
+@mixin sub-tit {
+  font-weight: 700;
+  font-size: 60px;
+  @media screen and (max-width: 1280px) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+@mixin sub-tit2 {
+  font-weight: 700;
+  font-size: 40px;
+  @media screen and (max-width: 1280px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 25px;
+  }
+}
+
 @mixin sub-tit3 {
   font-weight: 700;
   font-size: 26px;
-
   @media screen and (max-width: 1280px) {
     font-size: 23px;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 20px;
+  }
 }
+
 @mixin con26 {
   font-weight: 300;
   font-size: 26px;
-
   @media screen and (max-width: 1280px) {
     font-size: 23px;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 }
+
 @mixin bold16 {
   font-weight: 700;
   font-size: 16px;

@@ -149,12 +149,12 @@
           >
             <source src="./images/main/meta-quest-video.mp4" type="video/mp4" />
           </video>
-          <p class="big-tit animate__animated animate__fadeInUp">
-            여러분의 세상을 즐기세요.
-          </p>
-          <button class="pause-btn">
-            <span class="material-symbols-outlined pause"> pause </span>
-          </button>
+          <div class="inner">
+            <p class="big-tit">여러분의 세상을 즐기세요.</p>
+            <button class="pause-btn">
+              <span class="material-symbols-outlined pause"> pause </span>
+            </button>
+          </div>
         </section>
         <section class="sec sec-about">
           <div class="inner">
@@ -184,11 +184,11 @@
             <div class="tit-wrap">
               <p class="tit-flex">
                 <span class="gray">사람들이</span>
-                <span class="white" data-aos="fade-right">함께.</span>
+                <span class="white" data-aos="fade-in">함께.</span>
               </p>
               <p class="tit-flex">
-                <span class="gray">더 많은 것을 이루도록,</span>
-                <span class="white" data-aos="fade-right">지원합니다.</span>
+                <span class="gray block">더 많은 것을 이루도록,</span>
+                <span class="white block" data-aos="fade-in">지원합니다.</span>
               </p>
             </div>
             <div class="per-wrap">
@@ -249,7 +249,7 @@
           <div class="inner">
             <p class="tit-wrap">
               <span class="gray">새로운 방식의</span>
-              <span data-aos="fade-right">소통, 경험.</span>
+              <span data-aos="fade-in">소통, 경험.</span>
             </p>
           </div>
           <div class="vd-wrap">
@@ -262,20 +262,22 @@
               muted="muted"
               poster="./images/main/thumbnail5.png"
             ></video>
-            <div class="txt-wrap">
-              <span class="sub-tit">디지털 연결의 미래</span>
-              <p class="content">
-                <span class="con">
-                  Meta는 2차원 화면을 넘어 메타버스와 같은 몰입형 경험에서
-                </span>
-                <span class="con">
-                  소셜 테크놀로지의 차세대 혁신을 만들어나갈 것입니다.
-                </span>
-              </p>
+            <div class="inner">
+              <div class="txt-wrap">
+                <span class="sub-tit">디지털 연결의 미래</span>
+                <p class="content">
+                  <span class="con">
+                    Meta는 2차원 화면을 넘어 메타버스와 같은 몰입형 경험에서
+                  </span>
+                  <span class="con">
+                    소셜 테크놀로지의 차세대 혁신을 만들어나갈 것입니다.
+                  </span>
+                </p>
+              </div>
+              <button class="pause-btn">
+                <span class="material-symbols-outlined pause"> pause </span>
+              </button>
             </div>
-            <button class="pause-btn">
-              <span class="material-symbols-outlined pause"> pause </span>
-            </button>
           </div>
           <div class="inner2">
             <ul class="list-wrap" data-aos="fade-up">
@@ -395,7 +397,12 @@
             <ul class="menu">
               <li class="flex">
                 <strong>가상현실</strong>
-                <ul>
+                <button>
+                  <span class="material-symbols-outlined icon">
+                    expand_more
+                  </span>
+                </button>
+                <ul class="display-n">
                   <li><a href="/">Meta Quest 구매</a></li>
                   <li><a href="/">Meta Quest 2 리퍼 제품</a></li>
                   <li><a href="/">VR for Good</a></li>
@@ -413,7 +420,12 @@
               </li>
               <li class="flex">
                 <strong>스마트안경</strong>
-                <ul>
+                <button>
+                  <span class="material-symbols-outlined icon">
+                    expand_more
+                  </span>
+                </button>
+                <ul class="display-n">
                   <li><a href="/">Ray-Ban Meta 스마트 안경 구매</a></li>
                   <li><a href="/">Ray-Ban Stories</a></li>
                   <li><a href="/">개인정보 보호 정보</a></li>
@@ -424,7 +436,12 @@
               </li>
               <li class="flex">
                 <strong>지원</strong>
-                <ul>
+                <button>
+                  <span class="material-symbols-outlined icon">
+                    expand_more
+                  </span>
+                </button>
+                <ul class="display-n">
                   <li><a href="/">Shop 고객 센터</a></li>
                   <li><a href="/">주문 상태</a></li>
                   <li><a href="/">반품</a></li>

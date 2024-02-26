@@ -59,7 +59,6 @@
     gap: 50px;
 
     @media screen and (max-width: 1280px) {
-      padding: 0 40px;
       justify-content: space-between;
     }
   }
@@ -134,13 +133,38 @@
     @media screen and (max-width: 1280px) {
       padding: 100px 0;
     }
+    @media screen and (max-width: 768px) {
+      padding: 80px 0;
+    }
   }
 
   .tit-wrap {
     @include tit;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
 
     .gray {
       color: $txtDefult-sub1;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .pause-btn {
+      bottom: 30px;
+      width: 52px;
+      height: 52px;
+    }
+
+    .btn-more {
+      .btn-name {
+        font-size: 14px;
+      }
+
+      .icon-box {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }
@@ -159,6 +183,9 @@
       flex-direction: column;
       gap: 70px;
     }
+    @media screen and (max-width: 768px) {
+      gap: 50px;
+    }
   }
 
   strong {
@@ -176,7 +203,9 @@
     }
 
     .box {
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 50%;
       width: 26px;
       height: 26px;
@@ -195,13 +224,36 @@
     @media screen and (max-width: 1280px) {
       justify-content: space-between;
     }
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 30px;
+
+      .flex {
+        border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+        padding-bottom: 5px;
+      }
+    }
 
     .flex {
       display: flex;
-      gap: 30px;
+      gap: 20px;
 
       @media screen and (max-width: 1280px) {
         flex-direction: column;
+      }
+      @media screen and (max-width: 768px) {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+      }
+
+      .icon {
+        display: none;
+        color: $txtDefult-w;
+
+        @media screen and (max-width: 768px) {
+          display: block;
+        }
       }
 
       li {
@@ -211,6 +263,12 @@
         a {
           color: $txtDefult-sub1;
         }
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .display-n {
+        display: none;
       }
     }
   }
@@ -224,11 +282,21 @@
     justify-content: space-between;
     align-items: center;
     padding: 18px 0;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 20px;
+    }
   }
 
   .flex {
     display: flex;
     gap: 20px;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   a {
