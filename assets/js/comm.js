@@ -79,3 +79,13 @@ $(document).ready(function () {
 AOS.init({
   // duration: 1000,
 });
+
+$(document).ready(function () {
+  $(".nav-list").mouseenter(function () {
+    $(this).find(".depth2").addClass("active");
+  });
+
+  $(".nav-list").mouseleave(function () {
+    $(this).find(".depth2").removeClass("active");
+  });
+});
