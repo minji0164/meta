@@ -389,7 +389,7 @@ legend {
   height: 59px;
 }
 #header #nav .nav-link:hover .icon {
-  transition: all 0.3s;
+  transition: all 0.5s;
   transform: rotate(180deg);
 }
 #header #nav .depth2 {
@@ -618,6 +618,10 @@ legend {
     flex-direction: column;
     align-items: center;
   }
+}
+#footer .flex2 {
+  display: flex;
+  gap: 10px;
 }
 #footer a {
   color: #fff;
