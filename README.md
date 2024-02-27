@@ -5,6 +5,8 @@
 로고의 컬러를 주조색으로 사용하여 **통일감**을 주었으며 섹션별로 영상을 첨부하여 **시선**을 **집중**시키도록 디자인되었습니다.
 타이틀의 사이즈는 더욱 키워 **구분감**을 느끼게 하였고 중요키워드에는 다른 색상을 적용하고 fade in 효과를 넣어 **중요성**을 **강조**하였습니다. 
 
-## 🔍 Page link - [meta.com](https://minji0164.github.io/meta/)
+## 🔗 Page link - [meta.com](https://minji0164.github.io/meta/)
 
-## 디자인 및 개발 기간
+![page](https://github.com/minji0164/meta/blob/main/page.gif?raw=true)
+
+## 💻 디자인 및 개발 기간
