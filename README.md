@@ -10,3 +10,11 @@
 ![page](https://github.com/minji0164/meta/blob/main/page.gif?raw=true)
 
 ## 💻 디자인 및 개발 기간
+
++ 디자인 - 2024.02.13.~2024.02.20.**(8일 소요)**
++ 개발 - 2024.02.21.~2024.02.26.**(6일 소요)**
+
+## ⚙ 기술 스택
+
++ **Design tool**: Figma, Adobe Photoshop
++ **Web Development Technologies**: HTML, CSS, JS
